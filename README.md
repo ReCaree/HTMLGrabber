@@ -16,7 +16,7 @@ HTMLGrabber Is a Python Tools To Grab HTML From Any Site
 Clone This Repo
 
 ```bash
-git clone https://github.com/ReCaree/HTMLGrabber.git
+$ git clone https://github.com/ReCaree/HTMLGrabber.git
 ```
 
 ## Usage
@@ -24,24 +24,13 @@ git clone https://github.com/ReCaree/HTMLGrabber.git
 ### Open Terminal And Run
 
 ```bash
-$ python3 main.py <URL>
-```
-
-Or For Windows
-
-```bash
-python main.py <URL>
+$ ./HTMLGrabber.py https://www.google.com
 ```
 
 ### Example Usage:
 
 ```bash
-python3 main.py https://www.google.com
-```
-Or For Windows
-
-```bash
-python main.py https://www.google.com
+$ ./HTMLGrabber.py https://www.google.com
 ```
 
 Then You Will Get The HTML Code Of The Site In `Website` Folder
